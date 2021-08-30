@@ -1,0 +1,27 @@
+body
+{
+    background-image: url("../imagenes/fondoLogin.jpg"); 
+    background-repeat: no repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.formulario
+{
+    background: rgba(0,0,0,.200); 
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 30px rgba(0,0,0,.0.568);
+    color:white;
+}
+
+.ingresar
+{
+    background:rgba(144,238,144);
+}
+
+.volver
+{
+   background: rgba(240,128,128); 
+}
+

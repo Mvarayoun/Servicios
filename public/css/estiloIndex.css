@@ -1,0 +1,84 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("../imagenes/fondoLogin.jpg");
+    background-repeat: no repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+
+.titulo
+{
+    font-family:system-ui;
+    font: #fff;
+    font-size: 25px;
+}
+
+.container 
+{
+    width: 100%;
+    background: #808080;
+}
+
+.navbar ul
+{
+    margin:0;
+    list-style: none;
+    padding:0;
+    display:flex;
+}
+
+.navbar li
+{
+    text-align: center;
+    flex-grow: 1;
+    border-right: 1px solid #fff;
+}
+
+.navbar li a:hover
+{
+    background: rgba(0,0,0,0.3);
+}
+
+.navbar li a
+{
+    display: block;
+    padding: 15px 20px;
+    color:#fff;
+    text-decoration: none;
+}
+
+footer
+{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #808080;
+    align-self: flex-end;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.logo img
+{
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    border-radius: 50%;
+    top:30px;
+    left:900px;
+
+}
+
+.redes img
+{
+    width: 100px;
+    height: 40px;
+    position:absolute;
+    top:60px;
+    left: 1779px;
+}
+
+

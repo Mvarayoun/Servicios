@@ -1,0 +1,17 @@
+body
+{
+    background-image: url("../imagenes/fondoLogin.jpg"); 
+    background-repeat: no repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.ingresar
+{
+    background:rgba(144,238,144);
+}
+
+.volver
+{
+   background: rgba(240,128,128); 
+}
