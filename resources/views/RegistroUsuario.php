@@ -14,12 +14,13 @@
     <div class="container">
         <div class="row justify-content-center pt-5 mt-5 mr-1">
             <div class="col-md-4 formulario">
-                <form action="">
+                <form action="ClienteController.php" method="POST">
+                    
                     <div class="form-group text-center pt-3">
                         <h1 class="text-light">Registrar nuevo usuario</h1>
                     </div>
                     <div class="form-group mx-sm-4">
-                        <input type="text" class="form-control" name="usuario" placeholder="Ingrese un Usuario">
+                        <input type="text" class="form-control" name="Usuario" placeholder="Ingrese un Usuario">
                     </div>
                     <div class="form-group mx-sm-4">
                         <input type="text" class="form-control" name="contraseña" placeholder="Ingrese una Contraseña">
@@ -38,6 +39,9 @@
                     </div>
                     <div class="form-group mx-sm-4">
                         <input type="text" class="form-control" name="telefono" placeholder="Ingrese un Telefono">
+                    </div>
+                    <div class="form-group mx-sm-4">
+                        <input type="date" class="form-control" name="fechanacimiento" placeholder="Ingrese fecha de nacimiento">
                     </div>
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
